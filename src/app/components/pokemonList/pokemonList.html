@@ -7,7 +7,7 @@
       <button (click)="handleClick(pokemon)">
         Ver habilidades de {{ pokemon.name }}
       </button>
-      
+      <!-- Mostrar habilidades solo si el Pokémon seleccionado coincide -->
        @if (selectedPokemonId === oPokemonServ.getPokemonIdByURL(pokemon.url)) {
         <h4>Habilidades</h4>
         <ul>
