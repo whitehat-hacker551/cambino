@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { Menu } from "./components/menu/menu";
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
